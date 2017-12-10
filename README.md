@@ -1,7 +1,5 @@
 ## Performant and straight-forward implementation of damm checksum algorithm
 
-[![Go Report Card](https://goreportcard.com/badge/jancajthaml-go/damm)](https://goreportcard.com/report/jancajthaml-go/damm)
-
 ### Usage ###
 
 ```
