@@ -2,7 +2,7 @@ test("damm.Digit", async () => {
   const damm = require("../src/index.js")
 
   expect(damm.Digit("0012301476470096832")).toBe(5)
-  expect(damm.Digit("xy-1")).toBe(-1)
+  expect(damm.Digit("xy-1")).toBe(undefined)
 })
 
 test("damm.Validate", async () => {
@@ -20,4 +20,6 @@ test("damm.Generate", async () => {
 
   expect(generated).toBe("00123014764700968325")
   expect(damm.Validate(generated)).toBe(true)
+
+  expect(damm.Generate("xy-1")).toBe(undefined)
 })
