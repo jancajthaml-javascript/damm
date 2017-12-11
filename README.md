@@ -7,7 +7,7 @@ const damm = requite("damm")
 
 let ok = damm.Validate("00123014764700968325")
 
-let digit := damm.Digit("x")
+let digit = damm.Digit("x")
 
 let signed = damm.Generate("1")
 ```
